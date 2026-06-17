@@ -1,0 +1,11 @@
+# Overwrite .gitignore with the correct content
+cat > .gitignore << 'EOF'
+.env
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+dist/
+.pytest_cache/
+EOF
